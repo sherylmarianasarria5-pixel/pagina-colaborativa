@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes</title>
+    <link rel="stylesheet" href="archivo.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <img src="logo-viajes.png" alt="Logo Agencia" style="width:65px;">
+        </div>
+
+        <nav class="menu">
+            <a href="#" id="btn-inicio">Inicio</a>
+            <a href="#" id="btn-destinos">Destinos</a>
+            <a href="#" id="btn-contacto">Contacto</a>
+        </nav>
+
+        <div class="perfil">
+            <img src="perfil-viajero.png" alt="Perfil" style="width:45px; height:45px; border-radius:50%; object-fit:cover;">
+        </div>
+    </header>
+
+    <!-- SECCIONES -->
+    <main class="contenido">
+
+        <!-- INICIO -->
+        <section id="seccion-inicio" class="vista">
+            <h2>¿Quiénes somos?</h2>
+            <p class="texto-largo">
+                Somos una agencia de viajes con más de 15 años de experiencia creando experiencias inolvidables alrededor del mundo.
+                Nuestro objetivo es ayudarte a descubrir lugares increíbles de forma segura, cómoda y a precios accesibles.
+                Trabajamos con hoteles, aerolíneas y guías certificados para garantizarte un viaje perfecto.
+                <br><br>
+                Nos apasiona conectar personas con destinos únicos: playas paradisíacas, montañas espectaculares,
+                ciudades históricas y rincones ocultos que te dejarán sin aliento.
+                <br><br>
+                Con nosotros podrás:
+                <ul>
+                    <li>📌 Reservar hoteles y vuelos con descuentos exclusivos</li>
+                    <li>📌 Acceder a paquetes turísticos completos</li>
+                    <li>📌 Personalizar tu viaje según tus gustos</li>
+                    <li>📌 Recibir asesoría profesional 24/7</li>
+                </ul>
+                Tu aventura empieza aquí. ¡Permítenos llevarte al destino de tus sueños!
+            </p>
+        </section>
+
+        <!-- DESTINOS -->
+        <section id="seccion-destinos" class="vista oculto">
+            <div class="item foto">
+                <img src="playa.jpg" alt="Playa Caribe">
+            </div>
+
+            <div class="item texto">
+                Las mejores playas del Caribe te esperan con hotel incluido y tours guiados.
+            </div>
+
+            <div class="item foto">
+                <img src="montana.jpg" alt="Montañas Andinas">
+            </div>
+
+            <div class="item texto">
+                Aventuras increíbles en las montañas andinas: caminatas, naturaleza y miradores.
+            </div>
+        </section>
+
+        <!-- CONTACTO -->
+        <section id="seccion-contacto" class="vista oculto">
+            <h2>Contáctanos</h2>
+            <p>¡Estamos aquí para ayudarte! Llena el formulario y nos comunicaremos contigo lo más pronto posible.</p>
+
+            <form class="form-contacto">
+                <label>Nombre completo:</label>
+                <input type="text" placeholder="Tu nombre">
+
+                <label>Correo electrónico:</label>
+                <input type="email" placeholder="tuemail@ejemplo.com">
+
+                <label>Mensaje:</label>
+                <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+
+                <button type="button" id="btn-enviar">Enviar mensaje</button>
+            </form>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="left">© Agencia de Viajes</div>
+        <div class="center">Destinos - Contacto - Servicios</div>
+        <div class="right">©2025</div>
+    </footer>
+
+    <script src="archivo.js"></script>
+</body>
+</html>
+
