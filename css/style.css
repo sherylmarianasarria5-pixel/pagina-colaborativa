@@ -35,6 +35,7 @@ body {
 
 .perfil img {
     border: 2px solid white;
+    width: 0px;
 }
 
 /* SECCIONES */
