@@ -1,4 +1,4 @@
-console.log("Página cargada correctamente.");
+console.log("Página cargada correctamente..");
 
 const inicio = document.getElementById("seccion-inicio");
 const destinos = document.getElementById("seccion-destinos");
